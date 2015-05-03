@@ -1,0 +1,26 @@
+name = Project Base Feature: The Capital Wheel
+description = The base feature for The Capital Wheel project which contains all others as dependencies
+core = 7.x
+package = Features
+version = 7.x-1.0
+
+dependencies[] = basic_content_types
+dependencies[] = block_class
+dependencies[] = breakpoints
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = features
+dependencies[] = follow
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = menu_admin_per_menu
+dependencies[] = modernizr
+dependencies[] = node_clone
+dependencies[] = picture
+dependencies[] = search_api
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+
+features[features_api][] = api:2
