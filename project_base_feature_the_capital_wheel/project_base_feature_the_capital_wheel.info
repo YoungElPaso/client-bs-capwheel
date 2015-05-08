@@ -24,5 +24,7 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = wysiwyg
 dependencies[] = wysiwyg_filter
+dependencies[] = slick
+dependencies[] = slick_views
 
 features[features_api][] = api:2
