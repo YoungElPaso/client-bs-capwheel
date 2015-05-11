@@ -4,7 +4,11 @@ core = 7.x
 package = Features
 version = 7.x-1.0
 
+; site specific modules
 dependencies[] = basic_content_types
+dependencies[] = cap_wheel_jquery_update
+
+; contrib modules
 dependencies[] = block_class
 dependencies[] = breakpoints
 dependencies[] = ctools
@@ -27,5 +31,6 @@ dependencies[] = wysiwyg_filter
 dependencies[] = jquery_update
 dependencies[] = slick
 dependencies[] = slick_views
+dependencies[] = strongarm
 
 features[features_api][] = api:2
