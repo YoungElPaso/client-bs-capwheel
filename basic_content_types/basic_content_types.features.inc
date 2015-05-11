@@ -5,6 +5,15 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function basic_content_types_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_node_info().
  */
 function basic_content_types_node_info() {
@@ -39,6 +48,14 @@ function basic_content_types_node_info() {
       'description' => t('Press and News Content Type.'),
       'has_title' => '1',
       'title_label' => t('Press or News Title'),
+      'help' => '',
+    ),
+    'slide' => array(
+      'name' => t('Slide'),
+      'base' => 'node_content',
+      'description' => t('A content type to hold slide type content.'),
+      'has_title' => '1',
+      'title_label' => t('Slide Title'),
       'help' => '',
     ),
     'ticket' => array(
