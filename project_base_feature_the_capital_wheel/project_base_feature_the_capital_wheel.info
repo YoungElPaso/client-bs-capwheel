@@ -35,5 +35,6 @@ dependencies[] = slick
 dependencies[] = slick_views
 dependencies[] = strongarm
 dependencies[] = twitter
+dependencies[] = webform
 
 features[features_api][] = api:2
