@@ -1,0 +1,12 @@
+name = Cap Wheel Slick
+description = A feature that configures a view and using slick and slick views to create a carousel with a block.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = cap_wheel_slick
+dependencies[] = fe_block
+dependencies[] = slick
+dependencies[] = slick_views
+dependencies[] = views
+features[fe_block_settings][] = views-3c07d29d0d7888124392329227f97d75
+features[features_api][] = api:2
