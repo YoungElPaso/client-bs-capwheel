@@ -13,6 +13,7 @@ dependencies[] = block_class
 dependencies[] = breakpoints
 dependencies[] = ctools
 dependencies[] = date
+dependencies[] = diff
 dependencies[] = features
 dependencies[] = follow
 dependencies[] = image
