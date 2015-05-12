@@ -15,6 +15,7 @@ dependencies[] = ctools
 dependencies[] = date
 dependencies[] = diff
 dependencies[] = features
+dependencies[] = fe_block
 dependencies[] = follow
 dependencies[] = image
 dependencies[] = libraries
