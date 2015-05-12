@@ -34,5 +34,6 @@ dependencies[] = jquery_update
 dependencies[] = slick
 dependencies[] = slick_views
 dependencies[] = strongarm
+dependencies[] = twitter
 
 features[features_api][] = api:2
